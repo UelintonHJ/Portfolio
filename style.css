@@ -46,11 +46,38 @@ li:hover {
 }
 
 main {
-    padding: 20px;
+    display: flex;
+    margin: 1rem;
 }
 
 main h2 {
     color: #2EC4B6;
+}
+
+#home div {
+    border: 5px solid rgb(228, 41, 88);
+    border-radius: 8px;
+    box-shadow: 2px 1px  rgb(141, 235, 238);
+    margin: 5rem;
+    width: 400px;
+    height: 500px;
+}
+
+#home div:hover {
+    border: 5.5px solid rgb(141, 235, 238);
+    transition-duration: .2s;
+    border-radius: 8px;
+    box-shadow: 2px 1px  rgb(228, 41, 88);
+}
+
+img {
+    width: 100%;
+    height: 26vw;
+    
+}
+
+img:hover {
+    opacity: 0.6;
 }
 
 footer {
