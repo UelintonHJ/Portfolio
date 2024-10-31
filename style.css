@@ -1,3 +1,7 @@
+* {
+    font-family: "Itim", cursive;
+}
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -7,6 +11,8 @@ body {
 }
 
 header {
+    display: flex;
+    justify-content: space-evenly;
     background-color: #2EC4B6;
     color: #FFF;
     padding: 15px;
@@ -19,6 +25,25 @@ header h1 {
         font-weight: 600;
         font-size: 40px;
       }
+
+ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 20px;
+}
+
+li {
+    font-family: "Itim", cursive;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 30px;
+}
+
+li:hover {
+    color: rgb(228, 41, 88);
+    text-shadow: 1px 1px 2px black;
+}
 
 main {
     padding: 20px;
