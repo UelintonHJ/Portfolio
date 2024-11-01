@@ -54,7 +54,7 @@ main h2 {
     color: #2EC4B6;
 }
 
-#home div {
+#home .boxImgHome {
     border: 5px solid rgb(228, 41, 88);
     border-radius: 8px;
     box-shadow: 2px 1px  rgb(141, 235, 238);
@@ -63,7 +63,7 @@ main h2 {
     height: 500px;
 }
 
-#home div:hover {
+#home .boxImgHome:hover {
     border: 5.5px solid rgb(141, 235, 238);
     transition-duration: .2s;
     border-radius: 8px;
@@ -73,7 +73,7 @@ main h2 {
 img {
     width: 100%;
     height: 26vw;
-    
+    border-radius: 8px;
 }
 
 img:hover {
